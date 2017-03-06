@@ -1,0 +1,93 @@
+/*页面初始化*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*上半部分个图片属性设置*/
+
+img {
+    width: 150px;
+    height: 186px;
+}
+
+.con1 div {
+    height: 260px;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-flex: 1;
+    margin-top: 22px;
+}
+
+.first {
+    background-color: #bbcac8;
+}
+
+.second {
+    background-color: #a4b5a3;
+    -webkit-order: 3;
+}
+
+.third {
+    background-color: #d9f8ff;
+    -webkit-order: 2;
+}
+
+
+/*上半部分水平分栏*/
+
+.con1 {
+    display: -webkit-box;
+    background-color: #e6e3e3;
+    height: 340px;
+    display: -webkit-flex;
+    margin-bottom: 24px
+}
+
+
+/*下半部分垂直分栏*/
+
+.con2 {
+    background-color: #ddd;
+    width: 300px;
+    height: 280px;
+    margin-top: 21px;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+
+
+/*下半部分属性设置*/
+
+.con2 div {
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid #666;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+/*下半部分排序*/
+
+.one {
+    -webkit-order: 1;
+}
+
+.two {
+    -webkit-order: 3;
+}
+
+.three {
+    -webkit-order: 4;
+}
+
+.four {
+    -webkit-order: 2;
+}

@@ -1,0 +1,59 @@
+/*页面初始化*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*正常盒子的样式*/
+
+.xiehe1 {
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #f3ea1e;
+    margin: 100px auto;
+    border: 5px solid #9fe213;
+    box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+    -webkit-box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+    -moz-box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+}
+
+.xiezi1 {
+    width: 100px;
+    height: 100px;
+    background-color: #ff5722;
+}
+
+
+/*怪异盒子样式*/
+
+.xiehe2 {
+    padding: 10px;
+    width: 130px;
+    height: 130px;
+    background-color: #de0fc7;
+    margin: 100px auto;
+    border: 5px solid #ddef34;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+    -webkit-box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+    -moz-box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+}
+
+.xiezi2 {
+    width: 100px;
+    height: 100px;
+    background-color: #09cae2;
+}
+
+
+/*字体的设置*/
+
+.text {
+    text-align: center;
+    color: #523fb5;
+    font-size: 20px;
+    font-weight: bold;
+}
